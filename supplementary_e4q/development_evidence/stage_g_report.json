@@ -1,0 +1,44 @@
+{
+  "stage": "G",
+  "protocol": "development_only_oracle_qualification",
+  "candidate_executions": 0,
+  "holdout_executions": 0,
+  "status": "PASS",
+  "started_utc": "2026-10-15T15:24:06.273184+00:00",
+  "inputs": {
+    "D:\\EMSE_PhaseE1\\E4Q_StageE_Oracle_Kit\\E4QOracle.java": {
+      "sha256": "e5a4aceb7d71378aa71698a231dc74a975adec154fee39d4190b8b5f4a445f46",
+      "bytes": 4270
+    },
+    "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\javac.exe": {
+      "sha256": "00f7c6f9ec89ebba4bb96cf8760403cccf1268df2eae8685900ba38e58a7aff9",
+      "bytes": 24704
+    },
+    "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.12.101-hotspot\\bin\\java.exe": {
+      "sha256": "82051fdab26319d77d20cc0065045d05ec00b3e3d05f44935d7c06b96b621d55",
+      "bytes": 50304
+    },
+    "D:\\EMSE_PhaseE1\\E3B_Repositories\\commons-lang\\target\\commons-lang3-3.21.1-SNAPSHOT.jar": {
+      "sha256": "b7220b4f24ef6c94fba5fd8077a368a134ef6f3b1776587db13437a7cf1c4526",
+      "bytes": 752554
+    },
+    "D:\\EMSE_PhaseE1\\E3B_Repositories\\junit4\\target\\junit-4.13.3-SNAPSHOT.jar": {
+      "sha256": "d1213d0075e0b90aa6dea7ed5eb9b68e2f1668e1e661d4da8ad0742e14c3c7f8",
+      "bytes": 396372
+    },
+    "D:\\EMSE_PhaseE1\\defects4j-master\\framework\\projects\\Cli\\lib\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar": {
+      "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+      "bytes": 45024
+    }
+  },
+  "errors": [],
+  "generated_source_sha256": "669860a4c01ff5fe7911ca732fc12956c76740db4f511da3e10ae064b2801eba",
+  "compile": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "Note: D:\\EMSE_PhaseE1\\E4Q_StageG_Qualification\\E4QOracleStageG.java uses or overrides a deprecated API.\nNote: Recompile with -Xlint:deprecation for details.\n"
+  },
+  "total": 42,
+  "passed": 42,
+  "failed": []
+}

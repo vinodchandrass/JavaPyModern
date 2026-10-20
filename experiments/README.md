@@ -1,1 +1,1 @@
-No independently verified end-to-end modernization pipeline was supplied. The separate E4Q behavioural development experiment is not a substitute for framework-level validation.
+No executable, verified end-to-end modernization pipeline was supplied. See supplementary_e4q for separate developmental behavioural study.

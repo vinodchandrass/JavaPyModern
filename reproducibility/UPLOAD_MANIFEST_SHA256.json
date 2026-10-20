@@ -1,0 +1,148 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e0f23aba926987ff1b11b9cbb2b622c0d8caf4eac4d1d31478cd9ea76caaccc0"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5611ebd18e699f7f8bbe24fa7cf8f88c021248848cbae1bce6c20114c18d6087"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d70a9952a35128ff51de47771ba8e94bbc1b3e5b38e9fc3d333ea001a76cf1de"
+    },
+    {
+      "path": "experiments/README.md",
+      "sha256": "0019ede73941dd8801b24dc4cfa286a1b4f0adc7cc4945de08977c21aba5d813"
+    },
+    {
+      "path": "reproducibility/STATUS.md",
+      "sha256": "90d5b3eacd3337816ed2a6d99f4f41e16331445b8c35c08e6da5a3aaf9e29daf"
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "9a77d778a2aebf17dfc2e5c73c4e5c763ff5f508d4417ffd37020e01828be1cd"
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "c7e35da955767a13edc02ef360fa01fa474475c1f3838c91e49f0e5e69f8bdf8"
+    },
+    {
+      "path": "supplementary_e4q/java/E4QOracle.java",
+      "sha256": "12882a2a7f082e8e1af146371bbe188656372d46625ded7b5ec2dee4672af36a"
+    },
+    {
+      "path": "supplementary_e4q/java/E4QReplacementProbe.java",
+      "sha256": "a68472fd9dca04bbd1d4b9cda6e6b21687bac0c251883b63fe02cb46433aabf7"
+    },
+    {
+      "path": "supplementary_e4q/java/E4QOracleStageG.java",
+      "sha256": "669860a4c01ff5fe7911ca732fc12956c76740db4f511da3e10ae064b2801eba"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/protocol.json",
+      "sha256": "f6b31e147c0b0b51f4c4d61925170c32d87686ec48fb1207e66c096d23353e13"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/stage_g_manifest.json",
+      "sha256": "d016ce3e7a85a566b5d9251494ee41bf97e17b58807824ae5ab9a481792fbbe4"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/stage_g_cases.csv",
+      "sha256": "8996ee20c54a6a7aba5100b153ca6276b1e92957eb100537ba8340a2354041d0"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/development_provenance.json",
+      "sha256": "c49fd60bdee35c56988e1af25cd2ecc4c279d8c98c75aff8504b720eeaddb068"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/case_results.csv",
+      "sha256": "631eb8fb0029d629435e097c7dfb056d09b025c2de3d1fcb96be8ca2f6365dec"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/E4Q_Consolidated_Development_Evidence_Audit.json",
+      "sha256": "3bf3827824b6b662f9a4df8c35eedacc7ad3618431fd1334fbff6793470b1545"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/development_decisions.json",
+      "sha256": "93b563f590d8a56d2ec564cada30e714532b40639be194c71edc72d463d6fd67"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/execution_receipt.json",
+      "sha256": "eee42f4c6f257c0a104270493ac0bccc927c60d216576630f0a284a8c0c1da3b"
+    },
+    {
+      "path": "supplementary_e4q/development_evidence/stage_g_report.json",
+      "sha256": "2487f5eacaaec96a16a1c0d1d74eaa7d046115d9a36c69e1c54d28354e0d645e"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-08.py",
+      "sha256": "81321fa5b0d08c1eb10e78ddec617348fbae13eb00c42d09fc79534e3d11b3e8"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-09.py",
+      "sha256": "41854b5d383a210499623a7564f611937efb96288f469dd8fd4f5f37612b92fd"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-12.py",
+      "sha256": "3bb1b174678cff10e1ee60460d9d5bda487cc3e11dd20f51462f3002ebdd4f7a"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-01.py",
+      "sha256": "7e21612815d5c0ec401f1f6b92339c74bd8d6a9d6a4c372bf20fbb7927b25293"
+    },
+    {
+      "path": "supplementary_e4q/python/run_stage1_development.py",
+      "sha256": "4e0133d0e7d0cf92741c5901dab6a2a74e25c80896b1efe6546b205f551e0553"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-03.py",
+      "sha256": "728e57b802cd4c50ec162ddf3e7db196903a771198fb763cdc076ca8b43e06d7"
+    },
+    {
+      "path": "supplementary_e4q/python/state_adapter.py",
+      "sha256": "4bd0442428ea1b573785792fced865202b7a603030fe0f5dd931060e438a0b42"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-04.py",
+      "sha256": "61b90bd683ef3515d245233765fd01f3bcefbe831c0ce0259946544698bb6ee0"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-07.py",
+      "sha256": "b868d03e43b1de3bd6a91d0644881d06db81505fb9e07f04d9e06fee59c18fed"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-10.py",
+      "sha256": "f254d6143ebe1e501c9a2912fb3225452efa67417aa689b15a0d82fb723b6c02"
+    },
+    {
+      "path": "supplementary_e4q/python/test_development.py",
+      "sha256": "548c9e9b59176d8301ab7e9daaf746f10da6cc3efff6d5fde6ecbac5c0182de9"
+    },
+    {
+      "path": "supplementary_e4q/python/e4q_analyze.py",
+      "sha256": "f5bbd2a92343d4ad7afb56a47958763e87d85ea9f5592e0b9223cc001080dfe7"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-11.py",
+      "sha256": "cd681fbdaa34890fc5351f70eca547350397aa0fd9cb8dda1fb40364f41547fc"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-06.py",
+      "sha256": "06b27ab92e61eba28033652902564a46a398001619628e3a25097c4625094959"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-05.py",
+      "sha256": "ed6cf491a9b3343a279803be054b376c2aeb385948ea370e6d3dfd1198c421d7"
+    },
+    {
+      "path": "supplementary_e4q/python/E4Q-02.py",
+      "sha256": "7d79822302055a8d260063f50656765915bdf862444bde7f14dd7df28336b2aa"
+    },
+    {
+      "path": "supplementary_e4q/python/accelerated_gate.py",
+      "sha256": "0f01d4acc49c95ad5cefdfcb6b7cbc0240aa267e1fb98edb18facb129c2bba01"
+    }
+  ]
+}

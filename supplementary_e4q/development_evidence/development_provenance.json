@@ -1,0 +1,25 @@
+{
+  "developer_type": "AI-assisted development session; independence from other user sessions not independently verified",
+  "model_provider": "OpenAI",
+  "model_name": "GPT-6",
+  "model_version": null,
+  "session_id": null,
+  "started_utc": "2026-10-15T09:08:44.308028+00:00",
+  "finished_utc": "2026-10-15T09:08:45.281370+00:00",
+  "generation_settings": null,
+  "development_prompts_file": "inputs/HANDOFF_PROMPT.txt",
+  "external_materials_used": [
+    "uploaded EMSE_E4Q_Independent_Developer_Package(1).zip: developer instructions, task register, four production Java classes; no external websites"
+  ],
+  "attempt_count": 12,
+  "revisions": [],
+  "development_tests_run": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "output_file": "tests/development_test_output.txt"
+    }
+  ],
+  "holdout_or_gate_exposure": "No E4L candidates, E4M/E4O fixtures, holdout inputs, gate decisions, or evaluation results inspected in this execution. Cannot certify prior session/operator isolation.",
+  "disclosure_notes": "One generated implementation per task; no revisions. Adapter rejects invalid types/ranges; Java overload resolution and compilation errors are not emulated. Developer-authored tests are not independent validation."
+}

@@ -1,0 +1,259 @@
+{
+  "status": "PASS_RECORDED_EVIDENCE",
+  "checks": {
+    "v6_source_sha_matches": true,
+    "oracle_source_sha_matches": true,
+    "v9_manifest_sha_matches_receipt": true,
+    "v6_java_returncode": 0,
+    "v6_javac_returncode": 0,
+    "holdout_executions_reported": 0
+  },
+  "case_count": 108,
+  "matches": 91,
+  "mismatches": 17,
+  "boundary_mismatches": 15,
+  "replacement_cases": [
+    "E4Q-07-D08",
+    "E4Q-08-D08",
+    "E4Q-09-D08",
+    "E4Q-10-D08"
+  ],
+  "decisions": [
+    {
+      "candidate": "E4Q-01.py",
+      "cases": 8,
+      "boundary_cases": 3,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-02.py",
+      "cases": 8,
+      "boundary_cases": 3,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-03.py",
+      "cases": 8,
+      "boundary_cases": 0,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "NOT_APPLICABLE",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-04.py",
+      "cases": 12,
+      "boundary_cases": 10,
+      "exact_matches": 6,
+      "G1": "REJECT",
+      "G2": "REJECT",
+      "G3": "REJECT"
+    },
+    {
+      "candidate": "E4Q-05.py",
+      "cases": 12,
+      "boundary_cases": 10,
+      "exact_matches": 6,
+      "G1": "REJECT",
+      "G2": "REJECT",
+      "G3": "REJECT"
+    },
+    {
+      "candidate": "E4Q-06.py",
+      "cases": 12,
+      "boundary_cases": 10,
+      "exact_matches": 12,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-07.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-08.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 6,
+      "G1": "REJECT",
+      "G2": "REJECT",
+      "G3": "REJECT"
+    },
+    {
+      "candidate": "E4Q-09.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 6,
+      "G1": "REJECT",
+      "G2": "REJECT",
+      "G3": "REJECT"
+    },
+    {
+      "candidate": "E4Q-10.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 7,
+      "G1": "REJECT",
+      "G2": "REJECT",
+      "G3": "REJECT"
+    },
+    {
+      "candidate": "E4Q-11.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    },
+    {
+      "candidate": "E4Q-12.py",
+      "cases": 8,
+      "boundary_cases": 4,
+      "exact_matches": 8,
+      "G1": "ACCEPT",
+      "G2": "ACCEPT",
+      "G3": "ACCEPT"
+    }
+  ],
+  "mismatch_details": [
+    {
+      "case_id": "E4Q-04-D01",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "-255",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-04-D02",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "255",
+      "actual": "1"
+    },
+    {
+      "case_id": "E4Q-04-D04",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "-2",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-04-D05",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "2",
+      "actual": "1"
+    },
+    {
+      "case_id": "E4Q-04-D10",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "-127",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-04-D11",
+      "candidate": "E4Q-04.py",
+      "boundary": true,
+      "expected": "-128",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-05-D01",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "-65535",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-05-D02",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "65535",
+      "actual": "1"
+    },
+    {
+      "case_id": "E4Q-05-D04",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "-2",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-05-D05",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "2",
+      "actual": "1"
+    },
+    {
+      "case_id": "E4Q-05-D10",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "-32767",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-05-D11",
+      "candidate": "E4Q-05.py",
+      "boundary": true,
+      "expected": "-32768",
+      "actual": "-1"
+    },
+    {
+      "case_id": "E4Q-08-D06",
+      "candidate": "E4Q-08.py",
+      "boundary": true,
+      "expected": "false",
+      "actual": "true"
+    },
+    {
+      "case_id": "E4Q-08-D07",
+      "candidate": "E4Q-08.py",
+      "boundary": false,
+      "expected": "false",
+      "actual": "true"
+    },
+    {
+      "case_id": "E4Q-09-D06",
+      "candidate": "E4Q-09.py",
+      "boundary": true,
+      "expected": "true",
+      "actual": "false"
+    },
+    {
+      "case_id": "E4Q-09-D07",
+      "candidate": "E4Q-09.py",
+      "boundary": false,
+      "expected": "true",
+      "actual": "false"
+    },
+    {
+      "case_id": "E4Q-10-D06",
+      "candidate": "E4Q-10.py",
+      "boundary": true,
+      "expected": "1",
+      "actual": "2"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Recorded execution evidence is not independent source-to-JAR reproducibility",
+    "No independent holdout execution performed",
+    "Development case repetitions limit independence claims",
+    "Gate decisions audited for counts, not independently reimplemented from governing policy"
+  ]
+}
