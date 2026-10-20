@@ -1,6 +1,6 @@
 """Independent developer-authored cases; not oracle or holdout fixtures."""
 import unittest, pathlib, sys, importlib.util
-CAND=pathlib.Path(__file__).resolve().parents[1]/'candidates';sys.path.insert(0,str(CAND))
+CAND=pathlib.Path(__file__).resolve().parent;sys.path.insert(0,str(CAND))
 from state_adapter import Description,Result
 
 def task(n):
