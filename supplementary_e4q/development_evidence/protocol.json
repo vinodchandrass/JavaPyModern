@@ -1,0 +1,22 @@
+{
+  "phase": "E4Q",
+  "status": "DESIGN_ONLY_NO_NEW_EXPERIMENTS",
+  "primary_question": "Do frozen gates reduce escaped semantic defects relative to ungated acceptance?",
+  "unit": "candidate-method cluster",
+  "primary_cohort": "new independently developed candidates only",
+  "exploratory_cohort": "E4L candidates, previously exposed",
+  "requirements": [
+    "candidate provenance and source hashes frozen before gate application",
+    "G1/G2/G3 policies fixed before holdout access",
+    "holdout Java oracle inputs and outputs unavailable during development and gate tuning",
+    "paired gate decisions and oracle outcomes for same candidate",
+    "method-cluster uncertainty estimates; no case-level independence assumption"
+  ],
+  "outcomes": {
+    "escaped_defect": "gate ACCEPT and holdout oracle FAIL",
+    "false_rejection": "gate REJECT and holdout oracle PASS",
+    "abstention": "gate ABSTAIN",
+    "coverage": "gate ACCEPT / evaluated candidates"
+  },
+  "limitations": "No gate superiority or prospective results until independently sourced holdout and decisions are recorded"
+}
