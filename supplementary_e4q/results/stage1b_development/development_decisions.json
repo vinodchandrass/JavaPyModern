@@ -1,0 +1,110 @@
+[
+  {
+    "candidate": "E4Q-01.py",
+    "cases": 8,
+    "boundary_cases": 3,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-02.py",
+    "cases": 8,
+    "boundary_cases": 3,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-03.py",
+    "cases": 8,
+    "boundary_cases": 0,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "NOT_APPLICABLE",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-04.py",
+    "cases": 12,
+    "boundary_cases": 10,
+    "exact_matches": 6,
+    "G1": "REJECT",
+    "G2": "REJECT",
+    "G3": "REJECT"
+  },
+  {
+    "candidate": "E4Q-05.py",
+    "cases": 12,
+    "boundary_cases": 10,
+    "exact_matches": 6,
+    "G1": "REJECT",
+    "G2": "REJECT",
+    "G3": "REJECT"
+  },
+  {
+    "candidate": "E4Q-06.py",
+    "cases": 12,
+    "boundary_cases": 10,
+    "exact_matches": 12,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-07.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-08.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 6,
+    "G1": "REJECT",
+    "G2": "REJECT",
+    "G3": "REJECT"
+  },
+  {
+    "candidate": "E4Q-09.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 6,
+    "G1": "REJECT",
+    "G2": "REJECT",
+    "G3": "REJECT"
+  },
+  {
+    "candidate": "E4Q-10.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 7,
+    "G1": "REJECT",
+    "G2": "REJECT",
+    "G3": "REJECT"
+  },
+  {
+    "candidate": "E4Q-11.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  },
+  {
+    "candidate": "E4Q-12.py",
+    "cases": 8,
+    "boundary_cases": 4,
+    "exact_matches": 8,
+    "G1": "ACCEPT",
+    "G2": "ACCEPT",
+    "G3": "ACCEPT"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "DEVELOPMENT_ONLY_EXECUTED",
+  "created_utc": "2026-10-20T12:46:35.333574+00:00",
+  "candidate_executions": 12,
+  "development_cases": 108,
+  "holdout_executions": 0,
+  "holdout_outcomes_opened": false,
+  "runner_sha256": "4e0133d0e7d0cf92741c5901dab6a2a74e25c80896b1efe6546b205f551e0553",
+  "authorization_sha256": "0818214d594381228ceef8cd856ae9de3001deaf2d1182784e8fc15a2fed585d",
+  "candidate_manifest_sha256": "2d2789a6c24cecbd77043e0df4b329311eec67ffd3784fb24aff050dd5215704",
+  "case_manifest_sha256": "bb5d3099df5cfeb74f1cb0d90e4f77af17b16aee3a495124bca93e7387b5facc",
+  "reference_jar_lineage": "UNVERIFIED_BINARY_HASH_FIXED_DISCLOSED",
+  "note": "Development-only descriptive evidence; no holdout or gate-superiority claim."
+}
